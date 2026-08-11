@@ -52,3 +52,71 @@ ul{
 .nav-links a:hover{
     color: #9D6638;
 }
+
+
+/* Hero section */
+.hero{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #3b2513 ,  #c2783b);
+    padding: 120px 24px 80px;
+}
+.hero-greeting{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #3b2513;
+}
+.home-name{
+    font-size: 56px;
+    font-weight: 800;
+    color: #EEE0CC;
+    margin-bottom: 8px;
+}
+.hero-title{
+    font-size: 28px;
+    font-weight: 600;
+    color: #df9355;
+    margin-bottom: 20px;
+}
+.hero-desc{
+    font-size: 16px;
+    color: #EEE0CC;
+    margin: 0 auto 32px;
+    max-width: 500px;
+    line-height: 1.7;
+}
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.btn{
+    font-size: 15px;
+    padding: 14px 32px;
+    border-radius: 15px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn-primary{
+    background-color: #df9355;
+    color: beige;
+
+}
+.btn-primary:hover{
+    background-color: #eea66c;
+    transform: translateY(-2px);
+}
+.btn-outline{
+    background-color: transparent;
+    border: 2px solid #df9355;
+    color: #df9355;
+}
+.btn-outline:hover{
+    background:  rgba(#cc7b3a, #8b4d1a, #703c11, 0.1);
+    transform: translateY(-2px);
+} 
